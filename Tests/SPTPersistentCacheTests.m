@@ -200,7 +200,8 @@ typedef NSTimeInterval (^SPTPersistentCacheCurrentTimeSecCallback)(void);
     {
         int i = 0;
         while (kImages[i] != NULL) {
-            [self.imageNames addObject:@(kImages[i++])];
+            NSString *image = @(kImages[i++]);
+            [self.imageNames addObject:image];
         }
     }
 
