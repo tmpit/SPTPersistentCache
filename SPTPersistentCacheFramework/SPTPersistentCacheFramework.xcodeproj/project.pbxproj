@@ -10,6 +10,7 @@
 		050076B31C7A4354000819B5 /* SPTPersistentCachePosixWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 050076B11C7A4354000819B5 /* SPTPersistentCachePosixWrapper.h */; };
 		050076B41C7A4354000819B5 /* SPTPersistentCachePosixWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 050076B21C7A4354000819B5 /* SPTPersistentCachePosixWrapper.m */; };
 		050076B51C7A4DC7000819B5 /* SPTPersistentCachePosixWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 050076B21C7A4354000819B5 /* SPTPersistentCachePosixWrapper.m */; };
+		981D96162BC580D800095475 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 981D96152BC580D800095475 /* PrivacyInfo.xcprivacy */; };
 		9C9E707B1C790F0B00E1CBE6 /* SPTPersistentCacheObjectDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C9E70791C790F0B00E1CBE6 /* SPTPersistentCacheObjectDescription.m */; };
 		9C9E707C1C790F0B00E1CBE6 /* SPTPersistentCacheObjectDescription.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C9E707A1C790F0B00E1CBE6 /* SPTPersistentCacheObjectDescription.h */; };
 		9C9E707D1C790F3700E1CBE6 /* SPTPersistentCacheObjectDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C9E70791C790F0B00E1CBE6 /* SPTPersistentCacheObjectDescription.m */; };
@@ -72,6 +73,7 @@
 		052021FB1C7382C6003A4FB4 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		052022061C738600003A4FB4 /* project.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = project.xcconfig; path = ../project.xcconfig; sourceTree = "<group>"; };
 		052022091C738637003A4FB4 /* spotify_os.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = spotify_os.xcconfig; path = ../spotify_os.xcconfig; sourceTree = "<group>"; };
+		981D96152BC580D800095475 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		9C9E70791C790F0B00E1CBE6 /* SPTPersistentCacheObjectDescription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPTPersistentCacheObjectDescription.m; sourceTree = "<group>"; };
 		9C9E707A1C790F0B00E1CBE6 /* SPTPersistentCacheObjectDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPTPersistentCacheObjectDescription.h; sourceTree = "<group>"; };
 		C45526B21C77DCCC008D5570 /* SPTPersistentCacheTypeUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPTPersistentCacheTypeUtilities.h; sourceTree = "<group>"; };
@@ -185,6 +187,7 @@
 		052021FA1C7382B5003A4FB4 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				981D96152BC580D800095475 /* PrivacyInfo.xcprivacy */,
 				052021FB1C7382C6003A4FB4 /* Info.plist */,
 				052022061C738600003A4FB4 /* project.xcconfig */,
 				052022091C738637003A4FB4 /* spotify_os.xcconfig */,
@@ -310,6 +313,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 052021921C737DBD003A4FB4;
@@ -328,6 +332,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				981D96162BC580D800095475 /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
