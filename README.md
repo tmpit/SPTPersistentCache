@@ -1,3 +1,11 @@
+# Changes in this fork
+
+In the official implementation of the cache, `SPTPersistentCacheFileManager`'s `-optimizedDiskSizeForCacheSize:` calculates the max size of the cache by allocating a portion of the total disk space on the device to be left free. The problem is that the minimum free disk space is calculated by 0.1 * total disk space. This works ok-ish on devices with a small amount of disk space, but the storage of the devices grows and it doesn't make sense to leave so much free disk space on the device. For example, on a phone with 128GB storage, the minimum free disk space would be 12.8GB. That means that if you have, say, 10GB of free space (which is plenty of space), you wouldn't have a cache at all.
+
+The following modifications have been on top of version 1.1.1 from the upstream:
+- add a `minFreeDiskSpacePortion` property to `SPTPersistentCacheOptions` which reflects the portion of the total disk space that should be left free.
+- use the `minFreeDiskSpacePortion` option in the `SPTPersistentCacheFileManager` in order to calculate the cache size.
+
 <img alt="SPTPersistentCache" src="banner@2x.png" width="100%" max-width="888">
 
 [![Build Status](https://api.travis-ci.org/spotify/SPTPersistentCache.svg)](https://travis-ci.org/spotify/SPTPersistentCache)
