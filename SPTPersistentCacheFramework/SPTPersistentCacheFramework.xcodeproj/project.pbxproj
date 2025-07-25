@@ -422,33 +422,12 @@
 			buildSettings = {
 				DEFINES_MODULE = YES;
 				ENABLE_MODULE_VERIFIER = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
-				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 c++11";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.spotify.SPTPersistentCache-iOS";
 				PRODUCT_NAME = SPTPersistentCache;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
-				TARGETED_DEVICE_FAMILY = "1,2";
 				VALID_ARCHS = "i386 x86_64 armv7 arm64 armv7s";
-				WARNING_CFLAGS = (
-					"-Wall",
-					"-Wextra",
-					"-Wno-error=deprecated",
-					"-Wno-objc-missing-property-synthesis",
-					"-Wno-gnu-conditional-omitted-operand",
-					"-Wno-gnu",
-					"-Wno-documentation-unknown-command",
-					"-Wno-reserved-id-macro",
-					"-Wno-auto-import",
-					"-Wno-missing-variable-declarations",
-					"-Wno-c++98-compat",
-					"-Werror",
-					"-Wno-direct-ivar-access",
-					"-Wno-padded",
-					"-Wno-objc-messaging-id",
-					"-Wno-declaration-after-statement",
-				);
 			};
 			name = Debug;
 		};
@@ -457,33 +436,12 @@
 			buildSettings = {
 				DEFINES_MODULE = YES;
 				ENABLE_MODULE_VERIFIER = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
-				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 c++11";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.spotify.SPTPersistentCache-iOS";
 				PRODUCT_NAME = SPTPersistentCache;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
-				TARGETED_DEVICE_FAMILY = "1,2";
 				VALID_ARCHS = "i386 x86_64 armv7 arm64 armv7s";
-				WARNING_CFLAGS = (
-					"-Wall",
-					"-Wextra",
-					"-Wno-error=deprecated",
-					"-Wno-objc-missing-property-synthesis",
-					"-Wno-gnu-conditional-omitted-operand",
-					"-Wno-gnu",
-					"-Wno-documentation-unknown-command",
-					"-Wno-reserved-id-macro",
-					"-Wno-auto-import",
-					"-Wno-missing-variable-declarations",
-					"-Wno-c++98-compat",
-					"-Werror",
-					"-Wno-direct-ivar-access",
-					"-Wno-padded",
-					"-Wno-objc-messaging-id",
-					"-Wno-declaration-after-statement",
-				);
 			};
 			name = Release;
 		};
@@ -499,7 +457,6 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_MODULE_VERIFIER = YES;
 				FRAMEWORK_VERSION = A;
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 c++11";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.spotify.SPTPersistentCache-OSX";
 				PRODUCT_NAME = SPTPersistentCache;
@@ -522,7 +479,6 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_MODULE_VERIFIER = YES;
 				FRAMEWORK_VERSION = A;
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 c++11";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.spotify.SPTPersistentCache-OSX";
 				PRODUCT_NAME = SPTPersistentCache;
