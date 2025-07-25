@@ -54,6 +54,7 @@ NSString *NSStringFromSPTPersistentCacheResponseCode(SPTPersistentCacheResponseC
         case SPTPersistentCacheResponseCodeNotFound:            return @"not-found";
         case SPTPersistentCacheResponseCodeOperationError:      return @"operation-error";
         case SPTPersistentCacheResponseCodeOperationSucceeded:  return @"operation-success";
+		default:												return @"?";
     }
 }
 
