@@ -424,6 +424,7 @@
 				ENABLE_MODULE_VERIFIER = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.spotify.SPTPersistentCache-iOS";
 				PRODUCT_NAME = SPTPersistentCache;
+				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				VALID_ARCHS = "i386 x86_64 armv7 arm64 armv7s";
@@ -437,6 +438,7 @@
 				ENABLE_MODULE_VERIFIER = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.spotify.SPTPersistentCache-iOS";
 				PRODUCT_NAME = SPTPersistentCache;
+				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				VALID_ARCHS = "i386 x86_64 armv7 arm64 armv7s";
@@ -458,6 +460,7 @@
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 c++11";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.spotify.SPTPersistentCache-OSX";
 				PRODUCT_NAME = SPTPersistentCache;
+				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = macosx;
 				VALID_ARCHS = "i386 x86_64";
@@ -479,6 +482,7 @@
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 c++11";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.spotify.SPTPersistentCache-OSX";
 				PRODUCT_NAME = SPTPersistentCache;
+				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = macosx;
 				VALID_ARCHS = "i386 x86_64";
